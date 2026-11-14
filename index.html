@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0e15">
+  <meta name="description" content="AHLTVHUB — усі AHLTV-проєкти в одному місці.">
+  <title>AHLTVHUB</title>
+  <link rel="icon" type="image/webp" href="data:image/webp;base64,UklGRvYCAABXRUJQVlA4IOoCAABQEgCdASpsAGwAPpVKoEulpKMhpfVZMLASiUDfHKA4g0APxXvAPMB5ynol88fqDN5OIlUacNd4r7YjboPdnfu2j6Iuc2Jd8ScJmoI1f2SBUUVeiHjAxXIq8NLZrjBJnbCqNyaLCbzO8ZVzX/qAS0q/Gjv8gQ29Z2WOvKmgWt3SplTmsqaSaxGapWqjdX8ri4FtiDJITnd4RCaAAAD+8PGr/8/M//gf/3T4M/9wfqD+IMX8dmO8YxpFcYNNMUANxYHK/br9n4YtlDq3Jyg7uKZoYC4+3HtA3dEhu5Uk+nhrOajQa0/1zCb+Is+0erX9XYj29MAye+781DFEot23/zHPS2WkwRgZAFHW35wknQq4XvWdl8jtSs+wQWxz+56v8jWfjNRZlRD7/J8aeOj8Y2s788M/71jlmOpxV0RtoBSFf9fuJlYhhxJu2RRTXXBENZPV7z6NW9wYCjLYBTaC4hzDp4mInoYxS2oLF6iZAj/NqXBcYMCkDv8QLcV7N+az4ILCI4LDGeHf2A5DCFTsw0kl+57F1qlC3VoUR1JbxvxLXvkdLgODz3nwEuWJVAv1+0m9cmqoslWuQ7UnZpZArG7xhYpbG1vR3YY5rnS6e5PhfYXSFDF3FTcwCt/P4Wcj5YyHnt7TVbCQiZ8DYaQfcTQbNjrv3IZAHvEkQSG837ZouvbZYDyZLNKz7/8CMFAajlLAy+5tAebp1UW+HH3EPH7FWJLkzmp8ySQFXIzfr3bEgzJsvVEQg1oMa8QQ3+OXRVVydyWHrZ9P/YjjmrIIeRKG1GOK/ppL0EGc/BG9gLmH2hfxx191ZMHO0D1cHpV5q7x+ObJFVA46IkljFr9JF3LA2wIy+Iqz0p/V5w5uDaUXEtsm68S69nwRzZo859F9177ZA9t1B1MQyX3ruqtkLzVogU9JO+rZH+f8sWUuyRrgJzj2vaC4C18j2EU4Bn+E7PSHSBHFoq/rA0NyJn40fW/0khykM6BVCAAAAA==">
+  <style>
+    *{box-sizing:border-box}
+    :root{color-scheme:dark;--line:rgba(255,255,255,.12);--muted:#9ba2b4;--accent:#ffae40}
+    body{margin:0;min-height:100svh;background:#0b0e15;color:#f6f7fa;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;display:flex;flex-direction:column}
+    body:before{content:"";position:fixed;z-index:-1;inset:0;background:radial-gradient(ellipse 48% 38% at 50% 35%,rgba(255,165,56,.09),transparent 85%);pointer-events:none}
+    header{height:76px;padding:0 clamp(22px,6vw,90px);display:flex;align-items:center;gap:11px;border-bottom:1px solid var(--line)}
+    header img{width:35px;height:35px;border-radius:9px;object-fit:cover}
+    .brand{font-size:19px;font-weight:850;letter-spacing:1.1px}
+    main{width:min(100% - 40px,800px);margin:auto;display:flex;flex-direction:column;align-items:center;text-align:center;padding:65px 0 85px}
+    .logo{width:112px;height:112px;object-fit:cover;border-radius:25px;box-shadow:0 20px 70px #0008,0 0 0 1px #ffffff22}
+    h1{font-size:clamp(40px,8vw,72px);letter-spacing:-2.8px;line-height:1.05;margin:29px 0 13px;font-weight:850}
+    .sub{color:var(--muted);font-size:16px;line-height:1.6;margin:0 0 38px}
+    .links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;width:min(100%,580px)}
+    .link{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:92px;padding:22px 23px;border:1px solid var(--line);background:#ffffff09;text-decoration:none;color:inherit;border-radius:16px;text-align:left;transition:transform .2s,border-color .2s,background .2s}
+    .link:hover{transform:translateY(-4px);background:#ffffff11;border-color:#ffad4077}
+    .link strong{display:block;font-size:18px;font-weight:740;letter-spacing:-.4px}
+    .link small{display:block;font-size:12px;color:var(--muted);margin-top:6px}
+    .arrow{color:var(--accent);font-size:25px;line-height:1}
+    footer{text-align:center;padding:25px;font-size:12px;color:#707788}
+    @media(max-width:560px){header{height:67px}main{padding:55px 0}.links{grid-template-columns:1fr}.link{min-height:84px}h1{letter-spacing:-1.7px}}
+    @media(prefers-reduced-motion:reduce){.link{transition:none}}
+  </style>
+</head>
+<body>
+  <header><img src="data:image/webp;base64,UklGRvYCAABXRUJQVlA4IOoCAABQEgCdASpsAGwAPpVKoEulpKMhpfVZMLASiUDfHKA4g0APxXvAPMB5ynol88fqDN5OIlUacNd4r7YjboPdnfu2j6Iuc2Jd8ScJmoI1f2SBUUVeiHjAxXIq8NLZrjBJnbCqNyaLCbzO8ZVzX/qAS0q/Gjv8gQ29Z2WOvKmgWt3SplTmsqaSaxGapWqjdX8ri4FtiDJITnd4RCaAAAD+8PGr/8/M//gf/3T4M/9wfqD+IMX8dmO8YxpFcYNNMUANxYHK/br9n4YtlDq3Jyg7uKZoYC4+3HtA3dEhu5Uk+nhrOajQa0/1zCb+Is+0erX9XYj29MAye+781DFEot23/zHPS2WkwRgZAFHW35wknQq4XvWdl8jtSs+wQWxz+56v8jWfjNRZlRD7/J8aeOj8Y2s788M/71jlmOpxV0RtoBSFf9fuJlYhhxJu2RRTXXBENZPV7z6NW9wYCjLYBTaC4hzDp4mInoYxS2oLF6iZAj/NqXBcYMCkDv8QLcV7N+az4ILCI4LDGeHf2A5DCFTsw0kl+57F1qlC3VoUR1JbxvxLXvkdLgODz3nwEuWJVAv1+0m9cmqoslWuQ7UnZpZArG7xhYpbG1vR3YY5rnS6e5PhfYXSFDF3FTcwCt/P4Wcj5YyHnt7TVbCQiZ8DYaQfcTQbNjrv3IZAHvEkQSG837ZouvbZYDyZLNKz7/8CMFAajlLAy+5tAebp1UW+HH3EPH7FWJLkzmp8ySQFXIzfr3bEgzJsvVEQg1oMa8QQ3+OXRVVydyWHrZ9P/YjjmrIIeRKG1GOK/ppL0EGc/BG9gLmH2hfxx191ZMHO0D1cHpV5q7x+ObJFVA46IkljFr9JF3LA2wIy+Iqz0p/V5w5uDaUXEtsm68S69nwRzZo859F9177ZA9t1B1MQyX3ruqtkLzVogU9JO+rZH+f8sWUuyRrgJzj2vaC4C18j2EU4Bn+E7PSHSBHFoq/rA0NyJn40fW/0khykM6BVCAAAAA==" alt="AHLTVHUB logo"><span class="brand">AHLTVHUB</span></header>
+  <main>
+    <img class="logo" src="data:image/webp;base64,UklGRvYCAABXRUJQVlA4IOoCAABQEgCdASpsAGwAPpVKoEulpKMhpfVZMLASiUDfHKA4g0APxXvAPMB5ynol88fqDN5OIlUacNd4r7YjboPdnfu2j6Iuc2Jd8ScJmoI1f2SBUUVeiHjAxXIq8NLZrjBJnbCqNyaLCbzO8ZVzX/qAS0q/Gjv8gQ29Z2WOvKmgWt3SplTmsqaSaxGapWqjdX8ri4FtiDJITnd4RCaAAAD+8PGr/8/M//gf/3T4M/9wfqD+IMX8dmO8YxpFcYNNMUANxYHK/br9n4YtlDq3Jyg7uKZoYC4+3HtA3dEhu5Uk+nhrOajQa0/1zCb+Is+0erX9XYj29MAye+781DFEot23/zHPS2WkwRgZAFHW35wknQq4XvWdl8jtSs+wQWxz+56v8jWfjNRZlRD7/J8aeOj8Y2s788M/71jlmOpxV0RtoBSFf9fuJlYhhxJu2RRTXXBENZPV7z6NW9wYCjLYBTaC4hzDp4mInoYxS2oLF6iZAj/NqXBcYMCkDv8QLcV7N+az4ILCI4LDGeHf2A5DCFTsw0kl+57F1qlC3VoUR1JbxvxLXvkdLgODz3nwEuWJVAv1+0m9cmqoslWuQ7UnZpZArG7xhYpbG1vR3YY5rnS6e5PhfYXSFDF3FTcwCt/P4Wcj5YyHnt7TVbCQiZ8DYaQfcTQbNjrv3IZAHvEkQSG837ZouvbZYDyZLNKz7/8CMFAajlLAy+5tAebp1UW+HH3EPH7FWJLkzmp8ySQFXIzfr3bEgzJsvVEQg1oMa8QQ3+OXRVVydyWHrZ9P/YjjmrIIeRKG1GOK/ppL0EGc/BG9gLmH2hfxx191ZMHO0D1cHpV5q7x+ObJFVA46IkljFr9JF3LA2wIy+Iqz0p/V5w5uDaUXEtsm68S69nwRzZo859F9177ZA9t1B1MQyX3ruqtkLzVogU9JO+rZH+f8sWUuyRrgJzj2vaC4C18j2EU4Bn+E7PSHSBHFoq/rA0NyJn40fW/0khykM6BVCAAAAA==" alt="Логотип AHLTVHUB">
+    <h1>AHLTVHUB</h1>
+    <p class="sub">Обери проєкт, який хочеш відкрити.</p>
+    <nav class="links" aria-label="Наші проєкти">
+      <a class="link" href="https://ahltvtier7.lovable.app" target="_blank" rel="noopener noreferrer"><span><strong>AHLTV Tier 7</strong><small>Перейти на сайт</small></span><span class="arrow" aria-hidden="true">↗</span></a>
+      <a class="link" href="https://sewwprog.github.io/AHLTV-Tour/" target="_blank" rel="noopener noreferrer"><span><strong>AHLTV Tour</strong><small>Перейти на сайт</small></span><span class="arrow" aria-hidden="true">↗</span></a>
+    </nav>
+  </main>
+  <footer>© AHLTVHUB</footer>
+</body>
+</html>
